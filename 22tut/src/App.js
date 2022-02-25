@@ -10,7 +10,7 @@ import Missing from './Missing';
 import { useEffect } from 'react';
 import useAxiosFetch from './hooks/useAxiosFetch';
 import { Route, Switch } from 'react-router-dom';
-import { action, useStoreActions } from 'easy-peasy';
+import { useStoreActions } from 'easy-peasy';
 
 function App() {
 
